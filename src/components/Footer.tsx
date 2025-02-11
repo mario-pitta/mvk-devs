@@ -32,10 +32,10 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 gradient-text">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="https://linkedin.com/mvk.devs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="https://instagram.com/mvk.devs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
