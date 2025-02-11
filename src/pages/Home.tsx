@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Laptop, ShoppingBag, Code, Share2 } from 'lucide-react';
+import { Laptop, Code, Share2, Dumbbell, UtensilsCrossed } from 'lucide-react';
 
 export default function Home() {
   return (
     <div className="bg-dark text-gray-100">
       {/* Hero Section */}
-      <section className="relative py-20 overflow-visible">
+      <section className="relative py-32 mb-8 overflow-visible">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 animate-gradient-flow"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center animate-fade-in">
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Link to="/gym-manager" className="group">
               <div className="gradient-border bg-dark-lighter p-6 hover-gradient transition-all duration-300">
-                <ShoppingBag className="h-12 w-12 text-blue-500 mb-4" />
+                <Dumbbell className="h-12 w-12 text-blue-500 mb-4" />
                 <h3 className="text-xl font-bold mb-2">MvK Gym Manager</h3>
                 <p className="text-gray-400">Gestão para academias</p>
                 <img 
@@ -39,7 +39,7 @@ export default function Home() {
             </Link>
             <Link to="/cardapio" className="group">
               <div className="gradient-border bg-dark-lighter p-6 hover-gradient transition-all duration-300">
-                <Laptop className="h-12 w-12 text-purple-500 mb-4" />
+                <UtensilsCrossed className="h-12 w-12 text-purple-500 mb-4" />
                 <h3 className="text-xl font-bold mb-2">MvK Cardápio</h3>
                 <p className="text-gray-400">Solução para restaurantes</p>
                 <img 
