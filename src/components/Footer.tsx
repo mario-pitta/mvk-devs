@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -15,11 +15,11 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 gradient-text">Contato</h3>
             <div className="space-y-2">
-              <a href="mailto:contato@mvkdevs.com.br" className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="mailto:mvk.devs@gmail.com" className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
                 <Mail className="h-5 w-5 mr-2" />
-                mvk.devs@gmail.com.br
+                mvk.devs@gmail.com
               </a>
-              <a href="tel:+5511999999999" className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="https://wa.me/5571983982572/?text=urlencodedtex5571983982572"  target="_blank" className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
                 <Phone className="h-5 w-5 mr-2" />
                 (71) 983982572
               </a>
@@ -32,10 +32,10 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 gradient-text">Redes Sociais</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/mvk.devs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Facebook className="h-6 w-6" />
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+                <Linkedin className="h-6 w-6" />
               </a>
-              <a href="https://instagram.com/mvk.devs" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>

@@ -18,6 +18,9 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex md:items-center md:space-x-4">
+            <Link to="/sobre" className="text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300">
+              Sobre
+            </Link>
             <Link to="/gym-manager" className="text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300">
               MvK Gym Manager
             </Link>
@@ -29,6 +32,9 @@ export default function Navbar() {
             </Link>
             <Link to="/social-media" className="text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300">
               Social Media
+            </Link>
+            <Link to="/blog" className="text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300">
+              Blog
             </Link>
           </div>
 
@@ -48,6 +54,13 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-dark-lighter">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <Link
+              to="/sobre"
+              className="block text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300"
+              onClick={() => setIsOpen(false)}
+            >
+              Sobre
+            </Link>
             <Link
               to="/gym-manager"
               className="block text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300"
@@ -75,6 +88,13 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Social Media
+            </Link>
+            <Link
+              to="/blog"
+              className="block text-gray-300 hover:text-white px-3 py-2 transition-colors duration-300"
+              onClick={() => setIsOpen(false)}
+            >
+              Blog
             </Link>
           </div>
         </div>
