@@ -10,6 +10,7 @@ import SocialMedia from './pages/SocialMedia';
 import About from './pages/About.tsx';
 import Blog from './pages/Blog.tsx';
 import BlogPost from './pages/BlogPost.tsx';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </BrowserRouter>
   );
 }
