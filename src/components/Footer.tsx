@@ -19,7 +19,7 @@ export default function Footer() {
                 <Mail className="h-5 w-5 mr-2" />
                 mvk.devs@gmail.com
               </a>
-              <a href="https://wa.me/5571983982572/?text=urlencodedtex5571983982572"  target="_blank" className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="https://wa.me/5571983982572/"  target="_blank" className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
                 <Phone className="h-5 w-5 mr-2" />
                 (71) 983982572
               </a>
